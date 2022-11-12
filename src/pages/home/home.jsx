@@ -11,19 +11,21 @@ import group from  "../../assets/Group 4028.png"
 
 function App() {
   return (
-    <>
+   <body>
+    
      <header>
       <img id="logo" src={logo} />
 
       <nav> 
         <a href="#">Home</a>
         <a href="#">Place to stay</a>
-        <a href="#">NFT's</a>
+        <a href="./nft">NFT's</a>
         <a href="#">Community</a>
       </nav>
       <button id="connect">Connect wallet</button>
       </header>
-     <div id="container">
+      <div id="container">
+      
         <div id="container-text">
            <h1>Rent a <span id="purple">Place</span> away from <span id="purple">Home</span> in the <span id="purple">Metaverse</span></h1>
            <p id="para"> we provide you access to luxury
@@ -39,8 +41,8 @@ function App() {
             <img src={group} />
         </div>
      </div>
-
-    </>
+     </body>
+   
   );
 }
 
