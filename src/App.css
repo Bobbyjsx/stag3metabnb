@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+::placeholder {
+  color: #667085;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  box-sizing: border-box;
+}
